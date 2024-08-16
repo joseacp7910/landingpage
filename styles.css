@@ -1,0 +1,42 @@
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.introduccion {
+    padding: 20px;
+    text-align: center;
+}
+
+.boton {
+    background-color: #4CAF50;
+    color:white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+}
+
+.caracteristica {
+    padding: 100px;
+}
+
+footer {
+    background-color: #ffffff;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.imagentodaepica {
+    width: 250px;
+    height: auto;
+}
