@@ -16,19 +16,32 @@ header {
     padding: 10px 20px;
     display: inline-block;
     margin-top: 10px;
+    border-radius:20px;
 }
 
 .caracteristicas {
     display: flex;
-    justify-content:center;
-    padding: 20px;
+    font-family:sans-serif ;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 50px;
 }
 
-.caracteristica {
-    padding: 100px;
+.caracteristica1 {
+    font-size:30px;
 }
 
 .imagentodaepica {
-    width: 250px;
+    width: 550px;
     height: auto;
+}
+
+.fondo {
+    background-color: #0000006b;
+    border-radius:40px;
+    padding: 30px;
+}
+
+.caracteristica2 {
+    font-size: 30px;
 }
