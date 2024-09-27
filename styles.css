@@ -1,47 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+
 header {
-    background-color: #4CAF50;
+    background-color: #0072ef;
     color: white;
-    padding: 10px;
-    text-align: center;
+    padding: 15px 30px;
 }
 
-.introduccion {
-    padding: 20px;
-    text-align: center;
-}
-
-.boton {
-    background-color: #4CAF50;
-    color:white;
-    padding: 10px 20px;
-    display: inline-block;
-    margin-top: 10px;
-    border-radius:20px;
-}
-
-.caracteristicas {
+.barra {
     display: flex;
-    font-family:sans-serif ;
-    justify-content: center;
-    justify-content: space-around;
-    padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.caracteristica1 {
-    font-size:30px;
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-.imagentodaepica {
-    width: 550px;
-    height: auto;
+nav a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
 }
 
-.fondo {
-    background-color: #0000006b;
-    border-radius:40px;
-    padding: 30px;
+.botones a {
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
 }
 
-.caracteristica2 {
-    font-size: 30px;
+.btn-login {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.btn-comenzar {
+    background-color: #ff5678;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #0072ef;
+    color: white;
+}
+
+.texto {
+    max-width: 500px;
+}
+
+.texto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.botones-accion {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-principal, .btn-secundario {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-principal {
+    background-color: #ff5678;
+    color: white;
+}
+
+.btn-secundario {
+    background-color: white;
+    color: #0072ef;
+}
+
+.video video {
+    border-radius: 10px;
+    background-color: #ddd;
+    width: 100%;
+}
+
+.video p {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
 }
